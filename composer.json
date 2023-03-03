@@ -1,0 +1,43 @@
+{
+    "name": "aladei/e-commerce",
+    "description": "E-Commerce package for Anna-Lisa",
+    "authors": [
+        {
+            "name": "Jeroen de Boer | Aladei",
+            "email": "jeroen@aladei.com"
+        }
+    ],
+    "keywords": [
+        "e-commerce", "shipping", "payment"
+    ],
+    "minimum-stability": "dev",
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "git@github.com:Aladei/Base.git"
+        }
+    ],
+    "require": {
+        "php": "^8.0",
+        "aladei/base": "^2.0",
+        "aladei/authorization": "^2.0",
+        "aladei/settings": "^2.0",
+        "aladei/multilingual": "^2.0",
+        "aladei/crm": "^2.0",
+        "aladei/tenancy": "^2.0",
+        "aladei/inventory": "^2.0",
+        "aladei/filebuilder": "^2.0"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Aladei\\ECommerce\\ServiceProvider"
+            ]
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Aladei\\ECommerce\\": "src/"
+        }
+    }
+}

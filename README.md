@@ -1,2 +1,3 @@
-# E-commerce
-E-Commerce package for Anna-Lisa
+# E-Commerce
+
+version 1.0.0
