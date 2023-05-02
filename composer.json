@@ -15,6 +15,38 @@
         {
             "type": "vcs",
             "url": "git@github.com:Aladei/Base.git"
+        },
+        {
+            "type": "vcs",
+            "url": "git@github.com:Aladei/Authorization.git"
+        },
+        {
+            "type": "vcs",
+            "url": "git@github.com:Aladei/Settings.git"
+        },
+        {
+            "type": "vcs",
+            "url": "git@github.com:Aladei/Multilingual.git"
+        },
+        {
+            "type": "vcs",
+            "url": "git@github.com:Aladei/CRM.git"
+        },
+        {
+            "type": "vcs",
+            "url": "git@github.com:Aladei/Tenancy.git"
+        },
+        {
+            "type": "vcs",
+            "url": "git@github.com:Aladei/Inventory.git"
+        },
+        {
+            "type": "vcs",
+            "url": "git@github.com:Aladei/FileBuilder.git"
+        },
+        {
+            "type": "vcs",
+            "url": "git@github.com:Aladei/Navigation.git"
         }
     ],
     "require": {
@@ -26,7 +58,8 @@
         "aladei/crm": "^2.0",
         "aladei/tenancy": "^2.0",
         "aladei/inventory": "^2.0",
-        "aladei/filebuilder": "^2.0"
+        "aladei/filebuilder": "^2.0",
+        "aladei/navigation": "^2.0"
     },
     "extra": {
         "laravel": {
@@ -37,7 +70,8 @@
     },
     "autoload": {
         "psr-4": {
-            "Aladei\\ECommerce\\": "src/"
+            "Aladei\\ECommerce\\": "src/",
+            "Aladei\\ECommerce\\Database\\Seeders\\": "database/seeders/"
         }
     }
 }
