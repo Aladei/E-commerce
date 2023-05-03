@@ -1,5 +1,6 @@
 <?php namespace Aladei\ECommerce;
 
+use Aladei\ECommerce\Database\Seeders\EcommerceSeeder;
 use Aladei\Tenancy\Tenancy;
 
 class ServiceProvider extends \Illuminate\Support\ServiceProvider
@@ -21,6 +22,7 @@ class ServiceProvider extends \Illuminate\Support\ServiceProvider
     {
         // Tenancy
         Tenancy::addMigrationPath(__DIR__.'/../database/migrations/tenants');
+        Tenancy::addSeeders(EcommerceSeeder::class);
     }
 
 }

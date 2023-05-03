@@ -1,8 +1,8 @@
 <?php namespace Aladei\ECommerce\Database\Seeders;
 
-use Aladei\Navigation\Database\Seeders\NavigationItemsTargetsSeeder;
+use Aladei\ContentBuilder\Database\Seeders\ContentBuilderNavigationItemsTargetsSeeder;
 
-class EcommerceNavigationItemsTargetsSeeder extends NavigationItemsTargetsSeeder
+class EcommerceNavigationItemsTargetsSeeder extends ContentBuilderNavigationItemsTargetsSeeder
 {
     protected function target()
     {
@@ -11,15 +11,15 @@ class EcommerceNavigationItemsTargetsSeeder extends NavigationItemsTargetsSeeder
             'package' => 'aladei/e-commerce',
             'translations' => [
                 'nl' => [
-                    'value' => 'Product',
+                    'value' => 'E-commerce | Product',
                     'description' => null
                 ],
                 'en' => [
-                    'value' => 'Product',
+                    'value' => 'E-commerce | Product',
                     'description' => null
                 ],
                 'de' => [
-                    'value' => 'Produkt',
+                    'value' => 'E-commerce | Produkt',
                     'description' => null
                 ]
             ]
@@ -30,15 +30,15 @@ class EcommerceNavigationItemsTargetsSeeder extends NavigationItemsTargetsSeeder
             'package' => 'aladei/e-commerce',
             'translations' => [
                 'nl' => [
-                    'value' => 'Categorie',
+                    'value' => 'E-commerce | Categorie',
                     'description' => null
                 ],
                 'en' => [
-                    'value' => 'Category',
+                    'value' => 'E-commerce | Category',
                     'description' => null
                 ],
                 'de' => [
-                    'value' => 'Kategorie',
+                    'value' => 'E-commerce | Kategorie',
                     'description' => null
                 ]
             ]
