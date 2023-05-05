@@ -4,9 +4,7 @@ use Aladei\Base\Database\Seeders\Seeder as BaseSeeder;
 
 class EcommerceSeeder extends BaseSeeder
 {
-    private static $_seeders = [
-        EcommerceNavigationItemsTargetsSeeder::class
-    ];
+    private static $_seeders = [];
 
     public function run()
     {
