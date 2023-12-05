@@ -50,16 +50,16 @@
         }
     ],
     "require": {
-        "php": "^8.1",
-        "aladei/base": "dev-Anna-Lisa-4.x",
-        "aladei/authorization": "dev-Anna-Lisa-4.x",
-        "aladei/settings": "dev-Anna-Lisa-4.x",
-        "aladei/multilingual": "dev-Anna-Lisa-4.x",
-        "aladei/crm": "dev-Anna-Lisa-4.x",
-        "aladei/tenancy": "dev-Anna-Lisa-4.x",
-        "aladei/inventory": "dev-Anna-Lisa-4.x",
-        "aladei/filebuilder": "dev-Anna-Lisa-4.x",
-        "aladei/navigation": "dev-Anna-Lisa-4.x"
+        "php": "^8.0",
+        "aladei/base": "^2.0",
+        "aladei/authorization": "^2.0",
+        "aladei/settings": "^2.0",
+        "aladei/multilingual": "^2.0",
+        "aladei/crm": "^2.0",
+        "aladei/tenancy": "^2.0",
+        "aladei/inventory": "^2.0",
+        "aladei/filebuilder": "^2.0",
+        "aladei/navigation": "^2.0"
     },
     "extra": {
         "laravel": {
